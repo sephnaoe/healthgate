@@ -1,0 +1,13 @@
+project: example-app
+phases:
+  - name: ci
+    gate: true
+    checks:
+      - check_disk
+      - check_git_clean
+  - name: deploy
+    gate: true
+    checks:
+      - check_db
+      - check_disk
+checks: {}
