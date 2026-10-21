@@ -77,7 +77,3 @@ the phase.
 
 `.github/workflows/ci.yml` installs the package and runs `pytest` on every
 push and pull request.
-
-## License
-
-MIT.

@@ -9,11 +9,9 @@ description = "Declarative, registry-driven health-check engine that gates proje
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [{ name = "sephnaoe" }]
-license = { text = "MIT" }
 keywords = ["health-check", "ci", "deployment-gate", "observability"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
 ]
